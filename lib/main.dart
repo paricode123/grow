@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:untitled25/utils/UserSimplePreferences.dart';
 import 'login.dart';
 
 void main() {

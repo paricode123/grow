@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:untitled25/post.dart';
 
+import 'allpost.dart';
 import 'color.dart';
 
 class ThirdPage extends StatefulWidget {
@@ -709,10 +711,10 @@ class _ThirdPageState extends State<ThirdPage> {
               Center(
                 child: GestureDetector(
                   onTap: () {
-                    // Navigator.push(
-                    //   context,
-                    //   MaterialPageRoute(builder: (context) => ThirdPage()),
-                    // );
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) =>AllPostsPage()),
+                    );
                   },
                   child: Container(
                     width: 327.0.w,
